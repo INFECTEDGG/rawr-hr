@@ -6,21 +6,21 @@ const content = {
     quote:
       "RAWR – Recruitment AI Workforce Revolution GmbH hat uns nicht nur beraten, sondern unser HR-Team direkt an der Tastatur befähigt. Die Automatisierung ist enorm. Der Fokus auf Datenschutz ist",
     highlight: "beruhigend und sicher.",
-    name: "Thomas Müller",
+    name: "Hans Huber",
     role: "HR-Direktor, Produktionsunternehmen",
   },
   en: {
     quote:
       "RAWR – Recruitment AI Workforce Revolution GmbH did not just advise us; they enabled our HR team hands-on. The automation impact is enormous. Their focus on privacy is",
     highlight: "reassuring and secure.",
-    name: "Thomas Müller",
+    name: "Hans Huber",
     role: "HR Director, manufacturing company",
   },
   fr: {
     quote:
       "RAWR – Recruitment AI Workforce Revolution GmbH ne nous a pas seulement conseillés; l'équipe a formé nos RH directement en pratique. L'automatisation est considérable. Leur attention à la confidentialité est",
     highlight: "rassurante et sécurisante.",
-    name: "Thomas Müller",
+    name: "Hans Huber",
     role: "Directeur RH, entreprise industrielle",
   },
 };
