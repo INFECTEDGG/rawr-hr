@@ -248,6 +248,11 @@ const detectLanguage = (): Language => {
     return "de";
   }
 
+  const urlParam = new URLSearchParams(window.location.search).get("lang");
+  if (isLanguage(urlParam)) {
+    return urlParam;
+  }
+
   const storedLanguage = window.localStorage.getItem(STORAGE_KEY);
   if (isLanguage(storedLanguage)) {
     return storedLanguage;
