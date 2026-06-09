@@ -13,6 +13,7 @@ const Footer = () => {
               <img
                 src="/rawr-logo.png"
                 alt="RAWR"
+                loading="lazy"
                 className="h-12 w-12 shrink-0 rounded-xl bg-white object-contain p-1.5 shadow-sm"
               />
               <span className="font-display text-lg font-semibold tracking-tight">
