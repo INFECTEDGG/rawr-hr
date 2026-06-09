@@ -15,7 +15,6 @@ import {
 const primaryLinks = [
   { href: "/leistungen", labelKey: "nav.services" },
   { href: "/case-studies", labelKey: "nav.caseStudies" },
-  { href: "/blog", labelKey: "nav.blog" },
   { href: "/shop", labelKey: "nav.shop" },
   { href: "/unternehmen", labelKey: "nav.companyProfile" },
 ];
