@@ -45,7 +45,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Referenzen für",
       accent: "HR-Entscheider.",
       intro:
-        "Ausgewählte Projektprofile und Referenzformate für Unternehmen, die KI in HR sicher, pragmatisch und nachvollziehbar einführen möchten.",
+        "Ausgewählte Projektprofile für Unternehmen, die KI in HR sicher und DSGVO-konform einführen möchten – begleitet von RAWR, spezialisiert auf den DACH-Mittelstand.",
       primaryCta: "Referenzgespräch anfragen",
       primaryHref: "/kontakt",
       secondaryCta: "Case Studies ansehen",
@@ -91,7 +91,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Lizenzmodelle für",
       accent: "sichere KI-Nutzung.",
       intro:
-        "Strukturierte Nutzungsmodelle für Workshops, interne KI-Tools, Prompt-Bibliotheken und Governance-Bausteine.",
+        "Strukturierte Nutzungsmodelle für Workshops, interne KI-Tools, Prompt-Bibliotheken und Governance-Bausteine – entwickelt für HR-Teams ab 100 Mitarbeitenden.",
       primaryCta: "Lizenzmodell besprechen",
       primaryHref: "/kontakt",
       secondaryCta: "Leistungen ansehen",
@@ -137,7 +137,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Fallstudien aus",
       accent: "HR-Projekten.",
       intro:
-        "Konkrete Projektbeispiele zeigen, wie KI in HR-Prozessen produktiv wird, ohne Compliance und Akzeptanz aus den Augen zu verlieren.",
+        "Konkrete Projektbeispiele zeigen, wie RAWR KI in HR-Prozessen produktiv macht – messbar, rechtskonform und mit echten Ergebnissen in 30 Tagen.",
       primaryCta: "Projekt besprechen",
       primaryHref: "/kontakt",
       secondaryCta: "Referenzen ansehen",
@@ -182,7 +182,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Leistungen für",
       accent: "KI-ready HR.",
       intro:
-        "Von Strategie und Compliance bis zu Workshops, Automatisierung und Integration: unsere Leistungen sind auf produktive HR-Teams ausgelegt.",
+        "Von Strategie und Compliance bis zu Workshops, Automatisierung und Integration: RAWR begleitet Unternehmen im DACH-Mittelstand (100–5.000 MA) beim DSGVO-konformen KI-Aufbau in HR.",
       primaryCta: "Leistung anfragen",
       primaryHref: "/kontakt",
       secondaryCta: "Q&A lesen",
@@ -288,7 +288,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Shop für",
       accent: "HR-AI-Assets.",
       intro:
-        "Digitale Produkte, Vorlagen und Toolkits für HR-Teams, die erste KI-Workflows schneller und sicherer aufsetzen möchten.",
+        "Digitale Produkte und Toolkits für HR-Teams, die erste KI-Workflows schneller und DSGVO-sicher aufsetzen möchten – praxiserprobt aus RAWR-Projekten im DACH-Mittelstand.",
       primaryCta: "Produkt anfragen",
       primaryHref: "/kontakt",
       secondaryCta: "Lizenzen ansehen",
@@ -351,7 +351,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "References for",
       accent: "HR decision makers.",
       intro:
-        "Selected project profiles and reference formats for companies introducing AI in HR securely and pragmatically.",
+        "Selected project profiles for companies introducing AI in HR securely and in a GDPR-compliant way — guided by RAWR, specialized in DACH mid-market.",
       primaryCta: "Request reference call",
       primaryHref: "/kontakt",
       secondaryCta: "View case studies",
@@ -393,7 +393,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Licence models for",
       accent: "secure AI use.",
       intro:
-        "Structured usage models for workshops, internal AI tools, prompt libraries and governance modules.",
+        "Structured usage models for workshops, internal AI tools, prompt libraries and governance modules — designed for HR teams from 100 employees upward.",
       primaryCta: "Discuss licence model",
       primaryHref: "/kontakt",
       secondaryCta: "View services",
@@ -434,7 +434,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Case studies from",
       accent: "HR projects.",
       intro:
-        "Concrete project examples show how AI becomes productive in HR processes while keeping compliance and adoption in view.",
+        "Concrete project examples show how RAWR makes AI productive in HR processes — measurable, legally compliant, with real results within 30 days.",
       primaryCta: "Discuss project",
       primaryHref: "/kontakt",
       secondaryCta: "View references",
@@ -475,7 +475,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Services for",
       accent: "AI-ready HR.",
       intro:
-        "From strategy and compliance to workshops, automation and integration: our services are built for productive HR teams.",
+        "From strategy and compliance to workshops, automation and integration: RAWR guides DACH mid-market companies (100–5,000 employees) through GDPR-compliant AI adoption in HR.",
       primaryCta: "Request service",
       primaryHref: "/kontakt",
       secondaryCta: "Read Q&A",
@@ -564,7 +564,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Shop for",
       accent: "HR AI assets.",
       intro:
-        "Digital products, templates and toolkits for HR teams that want to set up first AI workflows faster and more securely.",
+        "Digital products and toolkits for HR teams that want to set up first AI workflows faster and in a GDPR-safe way — field-tested from RAWR projects across DACH mid-market.",
       primaryCta: "Request product",
       primaryHref: "/kontakt",
       secondaryCta: "View licences",
@@ -619,7 +619,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Références pour",
       accent: "décideurs RH.",
       intro:
-        "Profils de projets et formats de référence pour les entreprises qui introduisent l'IA RH de manière sûre et pragmatique.",
+        "Profils de projets sélectionnés pour les entreprises introduisant l'IA RH de manière sûre et conforme au RGPD — accompagnées par RAWR, spécialisé dans les PME DACH.",
       primaryCta: "Demander une référence",
       primaryHref: "/kontakt",
       secondaryCta: "Voir les cas clients",
@@ -661,7 +661,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Modèles de licences pour",
       accent: "un usage IA sécurisé.",
       intro:
-        "Modèles d'utilisation structurés pour workshops, outils IA internes, bibliothèques de prompts et modules de gouvernance.",
+        "Modèles d'utilisation structurés pour workshops, outils IA internes, bibliothèques de prompts et modules de gouvernance — conçus pour des équipes RH dès 100 collaborateurs.",
       primaryCta: "Discuter du modèle",
       primaryHref: "/kontakt",
       secondaryCta: "Voir les services",
@@ -702,7 +702,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Cas clients issus de",
       accent: "projets RH.",
       intro:
-        "Des exemples concrets montrent comment l'IA devient productive dans les processus RH sans perdre conformité et adoption.",
+        "Des exemples concrets montrent comment RAWR rend l'IA productive dans les processus RH — mesurable, conforme, avec de vrais résultats en 30 jours.",
       primaryCta: "Discuter du projet",
       primaryHref: "/kontakt",
       secondaryCta: "Voir les références",
@@ -743,7 +743,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Services pour",
       accent: "des RH prêtes pour l'IA.",
       intro:
-        "De la stratégie à la conformité, des workshops à l'automatisation et l'intégration: nos services sont conçus pour les équipes RH productives.",
+        "De la stratégie à la conformité, des workshops à l'automatisation et l'intégration : RAWR accompagne les PME et ETI DACH (100–5 000 collaborateurs) dans l'adoption IA RH conforme au RGPD.",
       primaryCta: "Demander un service",
       primaryHref: "/kontakt",
       secondaryCta: "Lire le Q&A",
@@ -832,7 +832,7 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
       title: "Shop pour",
       accent: "assets IA RH.",
       intro:
-        "Produits numériques, modèles et toolkits pour équipes RH souhaitant créer des workflows IA plus vite et plus sûrement.",
+        "Produits numériques et toolkits pour équipes RH souhaitant déployer leurs premiers workflows IA plus vite et en conformité RGPD — testés dans des projets RAWR en PME DACH.",
       primaryCta: "Demander un produit",
       primaryHref: "/kontakt",
       secondaryCta: "Voir les licences",
