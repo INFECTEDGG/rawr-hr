@@ -1,7 +1,11 @@
 import { useI18n } from "@/lib/i18n";
 
 const logos = [
-  "Adidas", "Aldi", "Allianz", "Apple", "BASF", "Bayer", "BlackRock", "BMW", "Bosch", "BYD", "Coca-Cola", "Commerzbank", "Continental", "DAIMLER", "DATEV", "Deutsche Bank", "Deutsche Telekom", "E.ON", "Fresenius", "Hummel", "IBM", "Lidl", "Lufthansa", "Microsoft", "Mercedes-Benz", "NVIDIA", "Phillips", "Porsche", "RWE", "SAP", "Siemens", "Trumph", "Thyssenkrupp", "Vector Informatik", "Volkswagen", "Zalando"
+  "Bürkert", "Bechtle", "KLAFS", "Stahl CraneSystems", "Kreissparkasse Heilbronn",
+  "Volksbank Heilbronn", "Heilbronner Stimme", "SLK-Kliniken", "Reisser",
+  "Arnold Umformtechnik", "Götz & Moriz", "Kaufmann Baustoffe", "Hahn + Kolb",
+  "Klingele Papierwerke", "Krannich Solar", "CWS", "SWH Stadtwerke Heilbronn",
+  "Hohenloher Möbelwerk"
 ];
 
 const tagline = {
