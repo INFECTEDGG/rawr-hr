@@ -43,6 +43,8 @@ const content = {
       ["Verantwortung zuerst", "Datenschutz, Fairness und Nachvollziehbarkeit sind feste Bestandteile jedes Projekts."],
       ["Enablement statt Abhängigkeit", "Unser Ziel ist, Teams so zu befähigen, dass sie KI sicher und selbstbewusst weiterentwickeln."],
     ],
+    expertiseText:
+      "RAWR ist auf HR und Recruiting im DACH-Mittelstand spezialisiert. Wir begleiten Unternehmen mit 100 bis 5.000 Mitarbeitenden dabei, KI innerhalb von 30 Tagen produktiv einzusetzen – DSGVO-konform, ohne IT-Abhängigkeit und mit nachweisbarem Effekt auf Prozessqualität und Teameffizienz.",
     teamBadge: "Führungsteam",
     teamHeading: "Vier Perspektiven.",
     teamAccent: "Ein gemeinsamer Anspruch.",
@@ -115,6 +117,8 @@ const content = {
       ["Responsibility first", "Privacy, fairness and traceability are fixed parts of every project."],
       ["Enablement over dependency", "Our goal is to empower teams to evolve AI securely and confidently."],
     ],
+    expertiseText:
+      "RAWR specializes in HR and recruiting for DACH mid-market. We guide companies with 100 to 5,000 employees to productive AI use within 30 days — GDPR-compliant, without IT dependency, with measurable impact on process quality and team efficiency.",
     teamBadge: "Leadership team",
     teamHeading: "Four perspectives.",
     teamAccent: "One shared standard.",
@@ -187,6 +191,8 @@ const content = {
       ["Responsabilité d'abord", "Confidentialité, équité et traçabilité font partie intégrante de chaque projet."],
       ["Autonomie plutôt que dépendance", "Notre objectif est de rendre les équipes capables de faire évoluer l'IA en confiance et en sécurité."],
     ],
+    expertiseText:
+      "RAWR est spécialisé dans les RH et le recrutement pour les PME et ETI DACH. Nous accompagnons des entreprises de 100 à 5 000 collaborateurs vers une IA productive en 30 jours — conforme RGPD, sans dépendance IT, avec un impact mesurable sur la qualité des processus et l'efficacité des équipes.",
     teamBadge: "Équipe dirigeante",
     teamHeading: "Quatre perspectives.",
     teamAccent: "Une même exigence.",
@@ -398,6 +404,14 @@ const AboutUs = () => {
               );
             })}
           </div>
+        </div>
+      </section>
+
+      <section className="py-10 md:py-14">
+        <div className="container">
+          <p className="text-muted-foreground leading-relaxed max-w-2xl">
+            {copy.expertiseText}
+          </p>
         </div>
       </section>
 
