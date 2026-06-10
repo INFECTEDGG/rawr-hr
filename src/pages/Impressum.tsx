@@ -21,7 +21,7 @@ const content = {
       ["Handelsregister", ["Registergericht: Amtsgericht Stuttgart", "Registernummer: HRB 768254"]],
       ["Umsatzsteuer-ID", ["Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:", "DE 316 478 291"]],
       ["Vertretungsberechtigte", ["Geschäftsführer: Maximilian Stephan", "Vertretungsberechtigt gemäß § 35 GmbHG"]],
-      ["Kontaktaufnahme", ["Telefon: +49 7131 98 765 43", "E-Mail: hello@rawr.de", "Website: www.rawr.de"]],
+      ["Kontaktaufnahme", ["Telefon: +49 7131 98 765 43", "E-Mail: info@rawr.solutions", "Website: www.rawr.de"]],
       ["Verantwortlich für den Inhalt", ["Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:", "Maximilian Stephan", "Etzelstrasse", "74076 Heilbronn"]],
       ["Streitschlichtung", ["Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit:", "https://ec.europa.eu/consumers/odr/", "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."]],
       ["Haftung für Inhalte", ["Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Wir sind jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.", "Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberuehrt. Bei Bekanntwerden entsprechender Rechtsverletzungen werden diese Inhalte umgehend entfernt."]],
@@ -47,7 +47,7 @@ const content = {
       ["Commercial register", ["Register court: Stuttgart Local Court", "Registration number: HRB 768254"]],
       ["VAT ID", ["VAT identification number pursuant to Section 27a German VAT Act:", "DE 316 478 291"]],
       ["Authorized representatives", ["Managing director: Maximilian Stephan", "Authorized to represent pursuant to Section 35 GmbHG"]],
-      ["Contact", ["Phone: +49 7131 98 765 43", "Email: hello@rawr.de", "Website: www.rawr.de"]],
+      ["Contact", ["Phone: +49 7131 98 765 43", "Email: info@rawr.solutions", "Website: www.rawr.de"]],
       ["Responsible for content", ["Responsible for content pursuant to Section 18 para. 2 MStV:", "Maximilian Stephan", "Etzelstrasse", "74076 Heilbronn"]],
       ["Dispute resolution", ["The European Commission provides a platform for online dispute resolution:", "https://ec.europa.eu/consumers/odr/", "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board."]],
       ["Liability for content", ["As a service provider, we are responsible for our own content on these pages according to general laws. However, we are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate unlawful activity.", "Obligations to remove or block the use of information under general laws remain unaffected. If we become aware of corresponding legal violations, we will remove such content immediately."]],
@@ -73,7 +73,7 @@ const content = {
       ["Registre du commerce", ["Tribunal d'enregistrement : Amtsgericht Stuttgart", "Numéro d'enregistrement : HRB 768254"]],
       ["Numéro de TVA", ["Numéro d'identification TVA conformément à l'article 27a de la loi allemande sur la TVA :", "DE 316 478 291"]],
       ["Représentation autorisée", ["Gérant : Maximilian Stephan", "Autorisé à représenter la société conformément à l'article 35 GmbHG"]],
-      ["Contact", ["Téléphone : +49 7131 98 765 43", "E-mail : hello@rawr.de", "Site web : www.rawr.de"]],
+      ["Contact", ["Téléphone : +49 7131 98 765 43", "E-mail : info@rawr.solutions", "Site web : www.rawr.de"]],
       ["Responsable du contenu", ["Responsable du contenu conformément à l'article 18, paragraphe 2 MStV :", "Maximilian Stephan", "Etzelstrasse", "74076 Heilbronn"]],
       ["Règlement des litiges", ["La Commission européenne met à disposition une plateforme de règlement en ligne des litiges :", "https://ec.europa.eu/consumers/odr/", "Nous ne sommes ni disposés ni obligés de participer à une procédure de règlement des litiges devant un organisme de médiation des consommateurs."]],
       ["Responsabilité pour le contenu", ["En tant que fournisseur de services, nous sommes responsables de nos propres contenus sur ces pages conformément aux lois générales. Nous ne sommes toutefois pas tenus de surveiller les informations tierces transmises ou stockées ni de rechercher des circonstances indiquant une activité illégale.", "Les obligations de supprimer ou de bloquer l'utilisation d'informations conformément aux lois générales restent inchangées. Si nous avons connaissance d'infractions correspondantes, nous supprimerons immédiatement ces contenus."]],
@@ -84,13 +84,13 @@ const content = {
 };
 
 const renderLine = (line: string) => {
-  if (line === "E-Mail: hello@rawr.de" || line === "Email: hello@rawr.de" || line === "E-mail : hello@rawr.de") {
+  if (line === "E-Mail: info@rawr.solutions" || line === "Email: info@rawr.solutions" || line === "E-mail : info@rawr.solutions") {
     const label = line.split(":")[0];
     return (
       <>
         {label}:{" "}
-        <a className="text-primary-glow hover:text-foreground transition-colors" href="mailto:hello@rawr.de">
-          hello@rawr.de
+        <a className="text-primary-glow hover:text-foreground transition-colors" href="mailto:info@rawr.solutions">
+          info@rawr.solutions
         </a>
       </>
     );
