@@ -166,6 +166,10 @@ export const createWebPageJsonLd = ({
       "@id": `${SITE_URL}/#organization`,
     },
     isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", ".hero-description", "[data-speakable]"],
+    },
   };
 };
 
