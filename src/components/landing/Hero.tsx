@@ -8,15 +8,15 @@ import { useI18n } from "@/lib/i18n";
 const content = {
   de: {
     badge: "AI ENABLEMENT FÜR HR & PEOPLE OPERATIONS",
-    title: ["KI im HR ist", "pragmatisch,", "sicher & befähigend."],
+    title: ["KI im HR –", "DSGVO-konform,", "in 30 Tagen einsatzbereit."],
     description:
-      "RAWR – Recruitment AI Workforce Revolution GmbH begleitet den Mittelstand bei der DSGVO-konformen Integration von KI. Wir befähigen Ihre HR-Abteilungen, Prozesse zu automatisieren und sich wieder auf den Menschen zu fokussieren.",
+      "RAWR befähigt HR-Teams im DACH-Mittelstand (100–5.000 Mitarbeitende), KI sicher und rechtskonform einzuführen. Kein Ersatz bestehender Systeme – sondern smarte Automatisierung, die Ihr Team trägt.",
     primary: "Beratungsgespräch vereinbaren",
     secondary: "Mehr erfahren",
     stats: [
-      { k: "50%", v: "Zeitersparnis bei Admin" },
+      { k: "30 Tage", v: "bis erste Ergebnisse" },
       { k: "100%", v: "DSGVO-konform" },
-      { k: "KMU", v: "Fokus auf Mittelstand" },
+      { k: "KMU", v: "Fokus DACH-Mittelstand" },
     ],
     liveInsight: "Live insight",
     insight: "Attrition risk down",
@@ -24,15 +24,15 @@ const content = {
   },
   en: {
     badge: "AI ENABLEMENT FOR HR & PEOPLE OPERATIONS",
-    title: ["AI in HR should be", "pragmatic,", "secure & empowering."],
+    title: ["AI in HR –", "GDPR-compliant,", "ready in 30 days."],
     description:
-      "RAWR – Recruitment AI Workforce Revolution GmbH helps mid-market companies integrate AI into HR in a GDPR-compliant way. We enable HR teams to automate processes and refocus on people.",
+      "RAWR enables HR teams across DACH mid-market (100–5,000 employees) to adopt AI safely and compliantly. No system replacement — smart automation your team can own.",
     primary: "Book a consultation",
     secondary: "Learn more",
     stats: [
-      { k: "50%", v: "Time saved in admin work" },
+      { k: "30 days", v: "to first results" },
       { k: "100%", v: "GDPR-compliant" },
-      { k: "SME", v: "Mid-market focus" },
+      { k: "SME", v: "DACH mid-market focus" },
     ],
     liveInsight: "Live insight",
     insight: "Attrition risk down",
@@ -40,15 +40,15 @@ const content = {
   },
   fr: {
     badge: "ACCOMPAGNEMENT IA POUR RH & PEOPLE OPERATIONS",
-    title: ["L'IA RH doit être", "pragmatique,", "sûre & responsabilisante."],
+    title: ["L'IA RH –", "conforme RGPD,", "opérationnelle en 30 jours."],
     description:
-      "RAWR – Recruitment AI Workforce Revolution GmbH accompagne les PME et ETI dans l'intégration conforme au RGPD de l'IA dans les RH. Nous aidons les équipes RH à automatiser les processus et à se recentrer sur l'humain.",
+      "RAWR accompagne les équipes RH des PME et ETI DACH (100–5 000 collaborateurs) pour adopter l'IA en toute sécurité et conformité. Pas de remplacement de systèmes – une automatisation maîtrisée par vos équipes.",
     primary: "Réserver un échange",
     secondary: "En savoir plus",
     stats: [
-      { k: "50%", v: "Temps gagné en administration" },
+      { k: "30 jours", v: "pour les premiers résultats" },
       { k: "100%", v: "Conforme RGPD" },
-      { k: "PME", v: "Focus PME et ETI" },
+      { k: "PME", v: "Focus DACH" },
     ],
     liveInsight: "Insight en direct",
     insight: "Risque d'attrition réduit de",
@@ -129,6 +129,7 @@ const Hero = () => {
                 alt="AI neural network visualizing workforce intelligence"
                 width={1600}
                 height={1200}
+                loading="eager"
                 className="w-full h-auto"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-background/60 via-transparent to-transparent" />

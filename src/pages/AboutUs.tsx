@@ -325,6 +325,7 @@ const AboutUs = () => {
                       alt={`${copy.imageAlt} ${leader.name}`}
                       width={480}
                       height={600}
+                      loading="lazy"
                       className="aspect-[4/5] h-full w-full object-cover"
                     />
                   </div>
@@ -433,6 +434,7 @@ const AboutUs = () => {
                     alt={`${copy.imageAlt} ${leader.name}`}
                     width={960}
                     height={1200}
+                    loading="lazy"
                     className="aspect-[4/5] w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/85 via-background/5 to-transparent" />
