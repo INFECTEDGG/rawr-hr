@@ -5,7 +5,6 @@ export type MarketingPageKey =
   | "licenses"
   | "caseStudies"
   | "services"
-  | "blog"
   | "shop";
 
 export type MarketingPageItem = {
@@ -231,52 +230,6 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
               description:
                 "Wartung und Bereitstellung interner KI-Tools zur sicheren Verbindung bestehender Systeme.",
               badge: "Integration",
-            },
-          ],
-        },
-      ],
-    },
-    blog: {
-      path: "/blog",
-      badge: "Blog",
-      title: "Wissen für",
-      accent: "KI im HR.",
-      intro:
-        "Ein redaktioneller Bereich für Leitfäden, Einschätzungen und Praxiswissen rund um KI, Datenschutz und HR-Automatisierung.",
-      primaryCta: "Thema vorschlagen",
-      primaryHref: "/kontakt",
-      secondaryCta: "Q&A lesen",
-      secondaryHref: "/fragen",
-      stats: [
-        ["Guides", "für HR"],
-        ["Praxis", "statt Hype"],
-        ["DSGVO", "im Blick"],
-      ],
-      sections: [
-        {
-          title: "Geplante Beiträge",
-          intro: "Die Beitragsseiten können später einzeln ergänzt werden. Die Struktur ist vorbereitet.",
-          items: [
-            {
-              title: "KI im HR sicher einführen: die ersten 30 Tage",
-              description:
-                "Ein praktischer Leitfaden für Priorisierung, Stakeholder, Datenschutz und erste produktive Anwendungsfälle.",
-              badge: "Guide",
-              meta: "In Vorbereitung",
-            },
-            {
-              title: "Prompt-Bibliotheken für Recruiting-Teams",
-              description:
-                "Wie HR-Teams wiederverwendbare Prompts strukturieren, testen und mit Qualitätskriterien verbinden.",
-              badge: "Praxis",
-              meta: "In Vorbereitung",
-            },
-            {
-              title: "Human-in-the-Loop: warum Kontrolle kein Bremsklotz ist",
-              description:
-                "Einordnung, wie menschliche Freigaben Effizienz und Verantwortung in sensiblen HR-Prozessen verbinden.",
-              badge: "Responsible AI",
-              meta: "In Vorbereitung",
             },
           ],
         },
@@ -519,45 +472,6 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
         },
       ],
     },
-    blog: {
-      path: "/blog",
-      badge: "Blog",
-      title: "Knowledge for",
-      accent: "AI in HR.",
-      intro:
-        "An editorial area for guides, perspectives and practical knowledge around AI, privacy and HR automation.",
-      primaryCta: "Suggest topic",
-      primaryHref: "/kontakt",
-      secondaryCta: "Read Q&A",
-      secondaryHref: "/fragen",
-      stats: [["Guides", "for HR"], ["Practice", "over hype"], ["GDPR", "in view"]],
-      sections: [
-        {
-          title: "Planned posts",
-          intro: "Individual article pages can be added later. The structure is ready.",
-          items: [
-            {
-              title: "Introducing AI in HR safely: the first 30 days",
-              description: "A practical guide for prioritization, stakeholders, privacy and first productive use cases.",
-              badge: "Guide",
-              meta: "In progress",
-            },
-            {
-              title: "Prompt libraries for recruiting teams",
-              description: "How HR teams structure, test and connect reusable prompts with quality criteria.",
-              badge: "Practice",
-              meta: "In progress",
-            },
-            {
-              title: "Human-in-the-loop: why control is not a blocker",
-              description: "How human approvals combine efficiency and responsibility in sensitive HR processes.",
-              badge: "Responsible AI",
-              meta: "In progress",
-            },
-          ],
-        },
-      ],
-    },
     shop: {
       path: "/shop",
       badge: "Digital products",
@@ -782,45 +696,6 @@ export const marketingPages: Record<Language, Record<MarketingPageKey, Marketing
               title: "API & intégration",
               description: "Maintenir et exposer des outils IA internes pour connecter les systèmes existants.",
               badge: "Intégration",
-            },
-          ],
-        },
-      ],
-    },
-    blog: {
-      path: "/blog",
-      badge: "Blog",
-      title: "Savoirs pour",
-      accent: "l'IA RH.",
-      intro:
-        "Un espace éditorial pour guides, analyses et savoir pratique autour de l'IA, la confidentialité et l'automatisation RH.",
-      primaryCta: "Proposer un sujet",
-      primaryHref: "/kontakt",
-      secondaryCta: "Lire le Q&A",
-      secondaryHref: "/fragen",
-      stats: [["Guides", "pour RH"], ["Pratique", "avant hype"], ["RGPD", "en vue"]],
-      sections: [
-        {
-          title: "Articles prévus",
-          intro: "Les pages d'articles pourront être ajoutées ensuite. La structure est prête.",
-          items: [
-            {
-              title: "Introduire l'IA RH en sécurité: les 30 premiers jours",
-              description: "Guide pratique pour priorisation, parties prenantes, confidentialité et premiers cas d'usage.",
-              badge: "Guide",
-              meta: "En préparation",
-            },
-            {
-              title: "Bibliothèques de prompts pour le recruiting",
-              description: "Comment structurer, tester et relier les prompts réutilisables à des critères qualité.",
-              badge: "Pratique",
-              meta: "En préparation",
-            },
-            {
-              title: "Human-in-the-loop: pourquoi le contrôle n'est pas un frein",
-              description: "Comment les validations humaines relient efficacité et responsabilité dans les processus RH.",
-              badge: "Responsible AI",
-              meta: "En préparation",
             },
           ],
         },

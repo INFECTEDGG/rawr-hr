@@ -47,7 +47,6 @@ const App = () => (
                 <Route path="/unternehmen" element={<AboutUs />} />
                 <Route path="/leistungen" element={<MarketingPage pageKey="services" />} />
                 <Route path="/serviceleistungen" element={<MarketingPage pageKey="services" />} />
-                <Route path="/blog" element={<MarketingPage pageKey="blog" />} />
                 <Route path="/shop" element={<MarketingPage pageKey="shop" />} />
                 <Route path="/digitale-produkte" element={<MarketingPage pageKey="shop" />} />
                 <Route path="/login" element={<Login />} />

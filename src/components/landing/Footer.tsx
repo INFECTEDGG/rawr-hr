@@ -40,7 +40,6 @@ const Footer = () => {
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li><Link className="hover:text-foreground transition-colors" to="/leistungen">{t("nav.services")}</Link></li>
               <li><Link className="hover:text-foreground transition-colors" to="/case-studies">{t("nav.caseStudies")}</Link></li>
-              <li><Link className="hover:text-foreground transition-colors" to="/blog">{t("nav.blog")}</Link></li>
               <li><Link className="hover:text-foreground transition-colors" to="/shop">{t("nav.shop")}</Link></li>
               <li><Link className="hover:text-foreground transition-colors" to="/fragen">{t("nav.faq")}</Link></li>
               <li><Link className="hover:text-foreground transition-colors" to="/datenschutz">{t("footer.privacy")}</Link></li>
