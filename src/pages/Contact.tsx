@@ -17,6 +17,13 @@ import { Textarea } from "@/components/ui/textarea";
 import { Loader2 } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
 import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
   createBreadcrumbJsonLd,
   createWebPageJsonLd,
   organizationJsonLd,
@@ -45,6 +52,16 @@ const content = {
     error: "Fehler beim Senden",
     errorDescription: "Bitte versuche es später noch einmal.",
     jsonDescription: "Kontakt zu RAWR für KI-Enablement, HR-Automatisierung und verantwortungsvolle AI-Governance.",
+    topicLabel: "Was beschäftigt Sie?",
+    topicPlaceholder: "Thema auswählen (optional)",
+    topicPrefix: "Thema",
+    topicOptions: [
+      { value: "dsgvo-ki", label: "DSGVO-konforme KI-Einführung" },
+      { value: "hr-automatisierung", label: "HR-Prozesse automatisieren" },
+      { value: "team-enablement", label: "Team-Enablement & Schulung" },
+      { value: "ki-beratung", label: "Strategische KI-Beratung" },
+      { value: "sonstiges", label: "Sonstiges" },
+    ],
   },
   en: {
     title: "Contact us",
@@ -66,6 +83,16 @@ const content = {
     error: "Error while sending",
     errorDescription: "Please try again later.",
     jsonDescription: "Contact RAWR for AI enablement, HR automation and responsible AI governance.",
+    topicLabel: "What's on your mind?",
+    topicPlaceholder: "Select a topic (optional)",
+    topicPrefix: "Topic",
+    topicOptions: [
+      { value: "gdpr-ai", label: "GDPR-compliant AI adoption" },
+      { value: "hr-automation", label: "Automating HR processes" },
+      { value: "team-enablement", label: "Team enablement & training" },
+      { value: "ai-consulting", label: "Strategic AI consulting" },
+      { value: "other", label: "Other" },
+    ],
   },
   fr: {
     title: "Contactez-nous",
@@ -87,6 +114,16 @@ const content = {
     error: "Erreur lors de l'envoi",
     errorDescription: "Veuillez réessayer plus tard.",
     jsonDescription: "Contactez RAWR pour l'enablement IA, l'automatisation RH et la gouvernance IA responsable.",
+    topicLabel: "Qu'est-ce qui vous préoccupe ?",
+    topicPlaceholder: "Sélectionner un sujet (optionnel)",
+    topicPrefix: "Sujet",
+    topicOptions: [
+      { value: "rgpd-ia", label: "Adoption IA conforme RGPD" },
+      { value: "automatisation-rh", label: "Automatiser les processus RH" },
+      { value: "team-enablement", label: "Enablement & formation d'équipe" },
+      { value: "conseil-ia", label: "Conseil IA stratégique" },
+      { value: "autre", label: "Autre" },
+    ],
   },
 };
 
@@ -128,6 +165,7 @@ export default function Contact() {
         name: z.string().min(2, { message: copy.nameRequired }),
         email: z.string().email({ message: copy.emailInvalid }),
         company: z.string().optional(),
+        topic: z.string().optional(),
         message: z.string().min(1, { message: copy.messageRequired }),
       }),
     [copy.emailInvalid, copy.messageRequired, copy.nameRequired],
@@ -139,13 +177,18 @@ export default function Contact() {
       name: "",
       email: "",
       company: "",
+      topic: "",
       message: "",
     },
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
-    
+
+    const messageWithTopic = values.topic
+      ? `[${copy.topicPrefix}: ${copy.topicOptions.find((o) => o.value === values.topic)?.label}]\n\n${values.message}`
+      : values.message;
+
     try {
       // FaaS / Formspree Integration
       const response = await fetch("https://formspree.io/f/mzdwozkq", {
@@ -154,7 +197,7 @@ export default function Contact() {
           "Accept": "application/json",
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(values),
+        body: JSON.stringify({ ...values, message: messageWithTopic }),
       });
       if (!response.ok) throw new Error("Netzwerk Fehler");
 
@@ -229,6 +272,32 @@ export default function Contact() {
                   <FormControl>
                     <Input placeholder={copy.companyPlaceholder} {...field} />
                   </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            {/* Topic (Optional) */}
+            <FormField
+              control={form.control}
+              name="topic"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>{copy.topicLabel}</FormLabel>
+                  <Select onValueChange={field.onChange} value={field.value || undefined}>
+                    <FormControl>
+                      <SelectTrigger>
+                        <SelectValue placeholder={copy.topicPlaceholder} />
+                      </SelectTrigger>
+                    </FormControl>
+                    <SelectContent>
+                      {copy.topicOptions.map((opt) => (
+                        <SelectItem key={opt.value} value={opt.value}>
+                          {opt.label}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
                   <FormMessage />
                 </FormItem>
               )}
