@@ -43,6 +43,30 @@ export const faqContent: Record<
         "Was passiert nach der Einführung?",
         "Wir begleiten bei Bedarf Betrieb, Optimierung und Governance weiter. Dazu gehören Feedback-Schleifen, Prompt-Bibliotheken, Qualitätskriterien, Risiko-Checks und die Weiterentwicklung interner KI-Workflows.",
       ],
+      [
+        "Welche HR-Systeme integriert RAWR?",
+        "Wir arbeiten mit den gängigen HR-Systemen im Mittelstand: Personio, Workday, SAP SuccessFactors, sowie klassischen ATS und HRIS. Unser Ansatz ist systemunabhängig – wir prüfen, welche Workflows sich sinnvoll automatisieren lassen, ohne bestehende Landschaften zu ersetzen.",
+      ],
+      [
+        "Wie lange dauert ein typisches Projekt?",
+        "Ein HR AI Readiness Audit dauert in der Regel 2–3 Wochen. Erste produktive Quick Wins – etwa automatisierte Stellenanzeigen oder Zeugnis-Workflows – entstehen oft innerhalb von 30 Tagen. Umfangreichere Integrationen planen wir je nach Komplexität auf 6–12 Wochen.",
+      ],
+      [
+        "Funktioniert KI im HR auch ohne eigene IT-Abteilung?",
+        "Ja. Viele unserer Kunden sind KMU ohne dediziertes IT-Team. Wir stellen sicher, dass Lösungen betriebsfähig sind, ohne interne IT-Ressourcen vorauszusetzen – inklusive Dokumentation, Schulung und optionaler Betreuung im laufenden Betrieb.",
+      ],
+      [
+        "Was kostet eine KI-Einführung im HR typischerweise?",
+        "Die Investition hängt vom Umfang ab. Ein Einstiegs-Audit und erste Workshops beginnen im niedrigen vierstelligen Bereich. Projektbegleitungen und Integrationen werden projektspezifisch kalkuliert. Wir besprechen Rahmen und Optionen transparent im ersten Gespräch.",
+      ],
+      [
+        "Ist RAWR auch für kleinere Unternehmen geeignet?",
+        "Ja. Wir begleiten HR-Teams ab ca. 100 Mitarbeitenden. Gerade für KMU ohne große Ressourcen ist ein pragmatischer, schlanker Einstieg oft wertvoller als ein großes Transformationsprojekt. Unser Fokus liegt auf umsetzbaren Lösungen mit echtem Effekt.",
+      ],
+      [
+        "Wie unterscheidet sich RAWR von klassischen Unternehmensberatungen?",
+        "Wir sind kein Strategieberater, der Folien liefert. RAWR begleitet operativ: Wir implementieren Workflows, trainieren Teams direkt, und bauen Lösungen, die intern weitergeführt werden können. Der Fokus liegt auf Befähigung statt Abhängigkeit.",
+      ],
     ],
     ctaText: "Noch eine Frage offen?",
     ctaButton: "Frage stellen",
@@ -78,6 +102,30 @@ export const faqContent: Record<
         "What happens after implementation?",
         "If needed, we continue supporting operations, optimization and governance. This includes feedback loops, prompt libraries, quality criteria, risk checks and the evolution of internal AI workflows.",
       ],
+      [
+        "Which HR systems does RAWR integrate with?",
+        "We work with the most common HR systems in mid-market: Personio, Workday, SAP SuccessFactors, as well as standard ATS and HRIS platforms. Our approach is system-agnostic — we assess which workflows can be meaningfully automated without replacing existing infrastructure.",
+      ],
+      [
+        "How long does a typical project take?",
+        "An HR AI readiness audit usually takes 2–3 weeks. First productive quick wins — such as automated job ads or reference workflows — often emerge within 30 days. More extensive integrations are planned for 6–12 weeks depending on complexity.",
+      ],
+      [
+        "Does AI in HR work without an internal IT team?",
+        "Yes. Many of our clients are mid-market companies without a dedicated IT team. We make sure solutions are operational without requiring internal IT resources — including documentation, training and optional ongoing support.",
+      ],
+      [
+        "What does AI adoption in HR typically cost?",
+        "The investment depends on scope. An entry-level audit and first workshops start in the low four-figure range. Project engagements and integrations are calculated per project. We discuss the framework and options transparently in the first call.",
+      ],
+      [
+        "Is RAWR suitable for smaller companies?",
+        "Yes. We work with HR teams from around 100 employees upward. Especially for SMEs without large resources, a pragmatic, lean entry is often more valuable than a large transformation project. We focus on actionable solutions with real impact.",
+      ],
+      [
+        "How does RAWR differ from traditional management consultancies?",
+        "We are not a strategy consultancy that delivers slide decks. RAWR works operationally: we implement workflows, train teams directly and build solutions that can be maintained internally. The focus is on enablement, not dependency.",
+      ],
     ],
     ctaText: "Still have a question?",
     ctaButton: "Ask a question",
@@ -112,6 +160,30 @@ export const faqContent: Record<
       [
         "Que se passe-t-il après la mise en œuvre ?",
         "Si besoin, nous accompagnons l'exploitation, l'optimisation et la gouvernance. Cela inclut des boucles de feedback, des bibliothèques de prompts, des critères qualité, des contrôles de risque et l'évolution des workflows IA internes.",
+      ],
+      [
+        "Avec quels systèmes RH RAWR s'intègre-t-il ?",
+        "Nous travaillons avec les systèmes RH les plus courants dans les PME : Personio, Workday, SAP SuccessFactors, ainsi que les ATS et HRIS standards. Notre approche est agnostique — nous évaluons quels workflows peuvent être automatisés sans remplacer l'infrastructure existante.",
+      ],
+      [
+        "Quelle est la durée d'un projet typique ?",
+        "Un audit HR AI Readiness prend généralement 2 à 3 semaines. Les premiers quick wins productifs — offres d'emploi automatisées ou workflows de certificats — apparaissent souvent en 30 jours. Des intégrations plus complexes sont planifiées sur 6 à 12 semaines.",
+      ],
+      [
+        "L'IA RH fonctionne-t-elle sans équipe IT interne ?",
+        "Oui. Beaucoup de nos clients sont des PME sans équipe IT dédiée. Nous veillons à ce que les solutions soient opérationnelles sans nécessiter de ressources IT internes — documentation, formation et support optionnel inclus.",
+      ],
+      [
+        "Quel est le coût typique d'une adoption IA dans les RH ?",
+        "L'investissement dépend du périmètre. Un audit d'entrée et des premiers workshops démarrent dans les quatre chiffres bas. Les accompagnements projet et intégrations sont calculés au projet. Nous discutons du cadre et des options de façon transparente lors du premier échange.",
+      ],
+      [
+        "RAWR convient-il aux petites entreprises ?",
+        "Oui. Nous accompagnons des équipes RH à partir d'environ 100 collaborateurs. Pour les PME sans grandes ressources, une entrée pragmatique et légère est souvent plus précieuse qu'un grand projet de transformation. Notre priorité : des solutions actionnables avec un impact réel.",
+      ],
+      [
+        "En quoi RAWR se distingue-t-il des cabinets de conseil traditionnels ?",
+        "Nous ne sommes pas un cabinet stratégique qui livre des slides. RAWR intervient de manière opérationnelle : nous implémentons des workflows, formons les équipes directement et construisons des solutions maintenables en interne. L'objectif est l'autonomisation, pas la dépendance.",
       ],
     ],
     ctaText: "Une question reste ouverte ?",
